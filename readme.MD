@@ -4,10 +4,10 @@
 O objetivo do projeto é ser uma página de formulário que gera um arquivo PDF após ter todas as informações preenchidas.
 
 ## Techs utilizadas
-A base do projeto é ReactJS com Typescript.
-Para fazer a estilização foi utilizado o *styled-components*
-Também utilizei a biblioteca *React-Pdf* para gerar os pdfs (inclusive foi a biblioteca que mais me deu trabalho nesse projeto).
-Utilizei o *react-router-dom* para gerenciar as rotas.
+A base do projeto é ReactJS com Typescript.<br>
+Para fazer a estilização foi utilizado o *styled-components*<br>
+Também utilizei a biblioteca *React-Pdf* para gerar os pdfs (inclusive foi a biblioteca que mais me deu trabalho nesse projeto).<br>
+Utilizei o *react-router-dom* para gerenciar as rotas.<br>
 
 ## Problemáticas encontradas
 Bem, no fim das contas, o maior dos problemas foi a biblioteca *React-Pdf*. Eu já tinha construído todo um projeto utilizando *Vite* e o *React* na versão 18, porém, o *React-Pdf* não dá suporte a essa versão do *React*, e eu só descobri isso quando fui fazer o deploy no Heroku. <br>
