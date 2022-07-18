@@ -1,12 +1,6 @@
 import { Page, Text, View, Document, StyleSheet, PDFViewer, Font  } from '@react-pdf/renderer';
 import { useLocation } from 'react-router-dom'
 
-Font.register({
-  family: 'Roboto Mono',
-  format: 'truetype',
-  src: '../../assets/RobotoMono-Regular.ttf'
-});
-
 // Create styles
 const styles = StyleSheet.create({
   viewer: {
@@ -19,7 +13,7 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     height: '27cm',
     padding: 20,
-    fontFamily: 'Roboto Mono',
+    fontFamily: 'Courier',
     fontSize: '9pt'
   },
   view: {
