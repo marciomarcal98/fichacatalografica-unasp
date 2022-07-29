@@ -86,6 +86,22 @@ export const FinalPaperInfo = styled(BaseDiv)`
   margin-bottom: 2rem;
 `
 
+export const CutterCodeContainer = styled.div`
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  a {
+    color: ${props => props.theme["gray-100"]};
+    text-decoration: none;
+
+    &:hover {
+      transition: background 0.2s;
+      color: ${props => props.theme["green-500"]};
+    }
+  }
+`
+
 export const OrientationInfo = styled(BaseDiv)`
   margin-bottom: 2rem;
 `

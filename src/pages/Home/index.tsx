@@ -1,7 +1,8 @@
 import { 
   AuthorContainer, 
   Input, 
-  FinalPaperInfo, 
+  FinalPaperInfo,
+  CutterCodeContainer,
   SelectContainer, 
   OrientationInfo, 
   SubmitButton, 
@@ -85,7 +86,10 @@ export function Home() {
             </SelectContainer>
             <Input type="text" placeholder="Curso" onChange={(e) => setCourse(e.target.value)} required />
             <Input type="text" placeholder="Título do trabalho" onChange={(e) => setTitle(e.target.value)} required />
-            <Input type="text" placeholder="Código Cutter" onChange={(e) => setCode(e.target.value)} required />
+            <CutterCodeContainer>
+              <Input type="text" placeholder="Código Cutter" onChange={(e) => setCode(e.target.value)} required />
+              <a target='_blank' href="https://www.tabelacutter.com/" rel="noreferrer">Consiga seu código cutter aqui!</a>
+            </CutterCodeContainer>
             <Input type="number" placeholder="Ano de conclusão" onChange={(e) => setConslusionYear(e.target.value)} required />
             <Input type="number" placeholder="Ano de publicação" onChange={(e) => setPublicationYear(e.target.value)} required />
             <Input type="text" placeholder="Cidade" onChange={(e) => setCity(e.target.value)} required />
